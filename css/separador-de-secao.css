@@ -1,0 +1,26 @@
+/* SEPARADOR DE SEÇÃO */
+.line {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.line-1 {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: var(--line-color01);
+}
+
+.line-2 {
+    width: 48rem;
+    height: 2px;
+    background: var(--line-color02);
+}
+
+.line-3 {
+    width: 32rem;
+    height: 2px;
+    background: var(--line-color02);
+}
+/* ******************************* */
